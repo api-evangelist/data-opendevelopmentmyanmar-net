@@ -40,6 +40,8 @@ apis:
       - type: x-api-endpoint
         url: https://data.opendevelopmentmyanmar.net/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/data-opendevelopmentmyanmar-net-domain-security.yml
   - type: Website
     url: https://data.opendevelopmentmyanmar.net
   - type: Documentation
@@ -52,6 +54,8 @@ common:
     url: finops/data-opendevelopmentmyanmar-net-finops.yml
   - type: Review
     url: review.yml
+  - url: https://opendevelopmentmyanmar.net/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
